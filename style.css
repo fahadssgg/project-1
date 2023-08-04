@@ -58,7 +58,7 @@ span:hover {
 /* univ-divs----------------------------- */
 .university-contaner {
   background-repeat: no-repeat;
-  border: 2px solid;
+  border: 0px solid;
   width: 100vw;
   background-size: contain;
   margin: 20px;
