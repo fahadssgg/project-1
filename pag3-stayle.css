@@ -1,0 +1,135 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+    direction: rtl;
+  
+}
+
+nav{
+    border: 2px solid;
+    height: 8vh;
+   
+}
+
+footer{
+    border: 2px solid red;
+    height: 10vh;
+    margin-top: 4vh;
+    ;
+    
+
+}
+
+.title-pag{
+    margin-top: 4vh;
+    margin-bottom: 4vh ;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+
+}
+
+.title-containar{
+    border: 2px solid;
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+    background-color: gray;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 7px rgb(89, 88, 88) ;
+
+
+}
+
+.titale{
+    
+    width: 70%;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.obgact{
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+
+
+}
+
+.firs-yare{
+    
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.firs-yare-title{
+    margin: 10px;
+    width: 80%;
+    height: 10%;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 7px rgb(89, 88, 88) ;
+    
+}
+
+.firs-yare-list {
+    width: 60%;
+    height: 85%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    background-color: rgb(178, 177, 177);
+    box-shadow: 10px 10px 10px 0 rgb(89, 88, 88) ;
+    border-radius: 20px;
+    
+}
+
+
+.second-yare{
+    
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.therd-yare{
+   
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+.ford-yare{
+    
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+
+}
