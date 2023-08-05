@@ -67,6 +67,53 @@ span:hover {
   box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.071);
 }
 
+/* -----page-1-2------------------------------- */
+.colleg-text {
+  border: 0px solid;
+  width: 100vw;
+  background-size: contain;
+  margin: 20px;
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.071);
+  text-align: center;
+  text-decoration: none;
+  color: #0e0e0e;
+  font-size: 40px;
+}
+
+.h2-text {
+  padding-top: 15vh;
+}
+
+.colleg-text:hover {
+  margin: -10px;
+}
+
+.name-contanir {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.univ-name {
+  border: 1px solid white;
+  width: 50vw;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  box-shadow: 10px 10px 0px 0px rgba(39, 40, 41, 0.095);
+}
+.h1-about-us {
+  padding: 50px;
+  text-align: center;
+  font-size: 50px;
+}
+/* ------------------------------------------------------- */
 .university-contaner:hover {
   margin: -10px;
 }
