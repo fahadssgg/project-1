@@ -3,12 +3,12 @@
   padding: 0;
   direction: rtl;
 }
-body {
-  background-color: rgba(248, 246, 244, 1);
-}
 
 @media only screen and (max-width: 600px) {
   /* navpar--------------------------------- */
+  body {
+    background-image: url(https://images.pexels.com/photos/4709425/pexels-photo-4709425.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  }
   .nav {
     display: flex;
     justify-content: space-between;
@@ -193,6 +193,9 @@ body {
 
 @media only screen and (min-width: 992px) {
   /* navpar--------------------------------- */
+  body {
+    background-image: url(https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?w=1060&t=st=1691247518~exp=1691248118~hmac=f82ddd4f063bafa31346f9bf2a8a87453ea5fad238138d546ddd508990aa6973);
+  }
   .nav {
     display: flex;
     justify-content: space-between;
@@ -276,7 +279,9 @@ body {
   }
 
   .colleg-text:hover {
-    margin: -10px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    transition: 1s;
   }
 
   .name-contanir {
@@ -304,7 +309,9 @@ body {
   }
   /* ------------------------------------------------------- */
   .university-contaner:hover {
-    margin: -10px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    transition: 1s;
   }
   .university-div {
     padding: 30px;
