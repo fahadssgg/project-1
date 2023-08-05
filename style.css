@@ -6,174 +6,348 @@
 body {
   background-color: rgba(248, 246, 244, 1);
 }
-/* navpar--------------------------------- */
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* الناف بار ثابت */
-  position: fixed;
-  width: 100%;
-  background-color: rgba(39, 40, 41, 1);
-  height: 10vh;
-}
-.nav-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  padding-right: 60px;
-  overflow: hidden;
-  font-size: 30px;
-  display: flex;
-  width: 100%;
-  border-right: 1px solid #0e0e0e;
+
+@media only screen and (max-width: 600px) {
+  /* navpar--------------------------------- */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* الناف بار ثابت */
+    position: fixed;
+    width: 100%;
+    background-color: rgba(39, 40, 41, 1);
+    height: 10vh;
+  }
+  .nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 60px;
+    overflow: hidden;
+    font-size: 30px;
+    display: flex;
+    width: 100%;
+    border-right: 1px solid #0e0e0e;
+  }
+
+  .nav-ul a {
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+
+    text-decoration: none;
+  }
+  .nav-ul a:hover {
+    background-color: rgba(255, 255, 255, 0.67);
+    color: #0e0e0e;
+  }
+  .home {
+    padding-left: 40px;
+  }
+  .material-symbols-outlined {
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+  span:hover {
+    background-color: rgba(255, 255, 255, 0.67);
+    color: #0e0e0e;
+  }
+
+  /* univ-divs----------------------------- */
+  .university-contaner {
+    background-repeat: no-repeat;
+    border: 0px solid;
+    height: 100vh;
+    background-size: contain;
+    margin: 20px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.071);
+  }
+  .university-contaner:hover {
+    margin: 10px;
+  }
+  .university-div {
+    padding-top: 100px;
+
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .university-div2 {
+    display: flex;
+    height: 100vh;
+
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  /* -----page-1-2------------------------------- */
+  .colleg-text {
+    border: 0px solid;
+    width: 100vw;
+    background-size: contain;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.071);
+    text-align: center;
+    text-decoration: none;
+    color: #0e0e0e;
+    font-size: 40px;
+  }
+
+  .h2-text {
+    padding: 5vh;
+    font-size: 50px;
+  }
+
+  .colleg-text:hover {
+    margin: 10px;
+  }
+
+  .name-contanir {
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .univ-name {
+    border: 1px solid white;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 5px 5px 0px 0px rgba(39, 40, 41, 0.095);
+  }
+  .h1-about-us {
+    text-align: center;
+    font-size: 10px;
+  }
+  /* ------------------------------------------------------- */
+
+  /* footerpar--------------------------------- */
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(39, 40, 41, 1);
+    height: 20vh;
+  }
+
+  /* about-us-------------------------------------- */
+
+  .about-us {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-us-p {
+    border: 1px solid white;
+    height: 45vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 10px 10px 0px 0px rgba(39, 40, 41, 0.095);
+  }
+  .h1-about-us {
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+  }
+  .p-about-us {
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
 }
 
-.nav-ul a {
-  display: flex;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 14px 16px;
+@media only screen and (min-width: 992px) {
+  /* navpar--------------------------------- */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* الناف بار ثابت */
+    position: fixed;
+    width: 100%;
+    background-color: rgba(39, 40, 41, 1);
+    height: 10vh;
+  }
+  .nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 60px;
+    overflow: hidden;
+    font-size: 30px;
+    display: flex;
+    width: 100%;
+    border-right: 1px solid #0e0e0e;
+  }
 
-  text-decoration: none;
-}
-.nav-ul a:hover {
-  background-color: rgba(255, 255, 255, 0.67);
-  color: #0e0e0e;
-}
-.home {
-  padding-left: 40px;
-}
-.material-symbols-outlined {
-  color: rgb(255, 255, 255);
-  border-radius: 20px;
-  padding: 10px;
-}
+  .nav-ul a {
+    display: flex;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
 
-span:hover {
-  background-color: rgba(255, 255, 255, 0.67);
-  color: #0e0e0e;
-}
+    text-decoration: none;
+  }
+  .nav-ul a:hover {
+    background-color: rgba(255, 255, 255, 0.67);
+    color: #0e0e0e;
+  }
+  .home {
+    padding-left: 40px;
+  }
+  .material-symbols-outlined {
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+  }
 
-/* univ-divs----------------------------- */
-.university-contaner {
-  background-repeat: no-repeat;
-  border: 0px solid;
-  width: 100vw;
-  background-size: contain;
-  margin: 20px;
-  border-radius: 50px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.071);
-}
+  span:hover {
+    background-color: rgba(255, 255, 255, 0.67);
+    color: #0e0e0e;
+  }
 
-/* -----page-1-2------------------------------- */
-.colleg-text {
-  border: 0px solid;
-  width: 100vw;
-  background-size: contain;
-  margin: 20px;
-  border-radius: 50px;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.071);
-  text-align: center;
-  text-decoration: none;
-  color: #0e0e0e;
-  font-size: 40px;
-}
+  /* univ-divs----------------------------- */
+  .university-contaner {
+    background-repeat: no-repeat;
+    border: 0px solid;
+    width: 100vw;
+    background-size: contain;
+    margin: 20px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.071);
+  }
 
-.h2-text {
-  padding-top: 15vh;
-}
+  /* -----page-1-2------------------------------- */
+  .colleg-text {
+    border: 0px solid;
+    width: 100vw;
+    background-size: contain;
+    margin: 20px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.071);
+    text-align: center;
+    text-decoration: none;
+    color: #0e0e0e;
+    font-size: 40px;
+  }
 
-.colleg-text:hover {
-  margin: -10px;
-}
+  .h2-text {
+    padding-top: 15vh;
+  }
 
-.name-contanir {
-  height: 60vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.univ-name {
-  border: 1px solid white;
-  width: 50vw;
+  .colleg-text:hover {
+    margin: -10px;
+  }
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgb(255, 255, 255);
-  border-radius: 50px;
-  box-shadow: 10px 10px 0px 0px rgba(39, 40, 41, 0.095);
-}
-.h1-about-us {
-  padding: 50px;
-  text-align: center;
-  font-size: 50px;
-}
-/* ------------------------------------------------------- */
-.university-contaner:hover {
-  margin: -10px;
-}
-.university-div {
-  padding: 30px;
-  padding-top: 100px;
-  display: flex;
-  height: 50vh;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.university-div2 {
-  padding: 30px;
+  .name-contanir {
+    height: 60vh;
 
-  display: flex;
-  height: 50vh;
-  flex-direction: row;
-  justify-content: space-around;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .univ-name {
+    border: 1px solid white;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 10px 10px 0px 0px rgba(39, 40, 41, 0.095);
+  }
+  .h1-about-us {
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+  }
+  /* ------------------------------------------------------- */
+  .university-contaner:hover {
+    margin: -10px;
+  }
+  .university-div {
+    padding: 30px;
+    padding-top: 100px;
+    display: flex;
+    height: 50vh;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .university-div2 {
+    padding: 30px;
 
-/* footerpar--------------------------------- */
+    display: flex;
+    height: 50vh;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(255, 255, 255);
-  background-color: rgba(39, 40, 41, 1);
-  height: 20vh;
-}
+  /* footerpar--------------------------------- */
 
-/* about-us-------------------------------------- */
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(39, 40, 41, 1);
+    height: 20vh;
+  }
 
-.about-us {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  /* about-us-------------------------------------- */
 
-.about-us-p {
-  border: 1px solid white;
-  height: 50vh;
-  width: 50vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgb(255, 255, 255);
-  border-radius: 50px;
-  box-shadow: 10px 10px 0px 0px rgba(39, 40, 41, 0.095);
-}
-.h1-about-us {
-  padding: 50px;
-  text-align: center;
-  font-size: 50px;
-}
-.p-about-us {
-  width: 70%;
-  padding: 20px;
-  text-align: center;
-  font-size: 20px;
+  .about-us {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-us-p {
+    border: 1px solid white;
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 10px 10px 0px 0px rgba(39, 40, 41, 0.095);
+  }
+  .h1-about-us {
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+  }
+  .p-about-us {
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
 }
