@@ -5,6 +5,7 @@
         background-color: rgba(248, 246, 244, 1);
         direction: rtl;
       }
+
       .nav {
         display: flex;
         justify-content: space-between;
@@ -15,14 +16,16 @@
         background-color: rgba(39, 40, 41, 1);
         height: 10vh;
       }
+
       .nav-ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
-        padding-right: 60px;
+        padding-right: 20px;
         overflow: hidden;
         font-size: 30px;
         display: flex;
+        justify-content: flex-start;
         width: 100%;
         border-right: 1px solid #0e0e0e;
       }
@@ -35,18 +38,37 @@
       
         text-decoration: none;
       }
+
       .nav-ul a:hover {
         background-color: rgba(255, 255, 255, 0.67);
         color: #0e0e0e;
       }
+
+      .borgar-mune{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+      }
+
+      #titale-hom{
+        display: none;
+      }
+
+      #tital-how{
+        display: none;
+      }
+
       .home {
         padding-left: 40px;
       }
+
       .material-symbols-outlined {
         color: rgb(255, 255, 255);
         border-radius: 20px;
         padding: 10px;
       }
+
       
       span:hover {
         background-color: rgba(255, 255, 255, 0.67);
@@ -62,6 +84,7 @@
         background-color: rgba(39, 40, 41, 1);
         height: 20vh;
       }
+
       
       .title-pag {
         padding-top: 100px;
@@ -72,6 +95,7 @@
         justify-content: center;
         align-items: center;
       }
+
       
       .title-containar {
         width: 50vw;
@@ -195,6 +219,10 @@ body {
   background-color: rgba(39, 40, 41, 1);
   height: 10vh;
 }
+.borgar-mune{
+    display: none;
+    
+  }
 .nav-ul {
   list-style-type: none;
   margin: 0;
