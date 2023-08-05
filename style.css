@@ -191,7 +191,7 @@
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 600px) {
   /* navpar--------------------------------- */
   body {
     background-image: url(https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?w=1060&t=st=1691247518~exp=1691248118~hmac=f82ddd4f063bafa31346f9bf2a8a87453ea5fad238138d546ddd508990aa6973);
