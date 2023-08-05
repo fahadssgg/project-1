@@ -23,7 +23,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    padding-right: 60px;
+    padding-right: 20px;
     overflow: hidden;
     font-size: 30px;
     display: flex;
@@ -42,6 +42,19 @@ body {
   .nav-ul a:hover {
     background-color: rgba(255, 255, 255, 0.67);
     color: #0e0e0e;
+  }
+  .borgar-mune {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #titale-hom {
+    display: none;
+  }
+
+  #tital-how {
+    display: none;
   }
   .home {
     padding-left: 40px;
@@ -213,6 +226,9 @@ body {
   .nav-ul a:hover {
     background-color: rgba(255, 255, 255, 0.67);
     color: #0e0e0e;
+  }
+  .borgar-mune {
+    display: none;
   }
   .home {
     padding-left: 40px;
